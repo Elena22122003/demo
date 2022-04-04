@@ -1,0 +1,287 @@
+/* Экран + шрифты */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background-image: url(#/#/#/ .jpg/png);
+    background-size:100%;
+}
+
+h1 {
+    text-align:center;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local( 'Roboto'), url(fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Noto_Sans_JP';
+    src: local( 'Noto_Sans_JP'), url(fonts/Noto_Sans_JP/NotoSansJP-Black.ttf);
+}
+
+/* Меню, шапка */
+.shapka {
+    width:100%;
+    height:120px;
+    background-color: aqua;
+    display:flex;
+    margin-bottom:50px;
+    font-family: 'Noto_Sans_JP'; 
+}
+.logo {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.nav {
+    font-size: 30px;
+    display:inline-block;
+    padding-left:10%;
+    padding-top:40px;
+    display:inline-block;
+}
+nav a {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding-bottom:5px;
+    padding-top:5px;
+    }
+
+/* Главная */
+.bron {
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(173, 216, 230, 0.3);
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.bron p {
+     border: 1px solid black;
+     background-color: rgba(173, 216, 230, 0.7);
+     display: inline-block;
+     margin-right: 5px;
+     margin-left: 5px;
+     padding-right: 1px;
+     padding-left: 1px;
+     padding-top: 10px;
+}
+
+.bron p:hover {
+    transform: scale(1.1);
+    transition: 1.2s ease-out;
+}
+
+
+.celi {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(173, 216, 230, 0.7);
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+.otziv {
+    background-color: rgba(173, 216, 230, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:50px;
+
+}
+
+.otziv h4{
+    font-size: 24px;
+    text-align:center;
+}
+
+.otziv p{
+    font-size:20px;
+    text-align:right;
+    padding-right:50px;
+}
+
+.lidi {
+    margin-bottom: 20px;
+    border: 3px solid blue;
+}
+
+
+.reclama {
+    margin-top:50px;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(173, 216, 230);
+    height: 120px;
+    font-size: 24px;
+    color: black;
+    margin: auto;
+}
+
+form input {
+    width: 150px;
+    background-color: aquamarine;
+}
+
+
+#acii {
+    font-size: 20px;
+    background-color: rgba(173, 216, 230, 0.8);
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 800px;
+}
+
+.promo {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.8);
+    margin-right: 7px;
+    margin-left: 7px;
+    vertical-align: top;
+    height: 800px;
+}
+
+.promo h4{
+    font-size:24px;
+} 
+
+.promo:hover{
+    transform: scale(1.1);
+}
+
+.promo img {
+    width:50%;
+    border:1.5px solid blue;
+}
+
+.p {
+    padding-top:  260px;
+}
+
+.m {
+    padding-top: 110px;
+}
+
+/* Поиск */
+.poick {
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 50px;
+    text-align:left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 2px solid blue;
+}
+
+.t {
+    height: 20px;
+    text-align: center;
+}
+
+.c {
+    float:right;
+}
+
+.n {
+   width:700px;
+   height: 20px;
+   text-align:center;
+}
+
+.prodol input {
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Управление бронированием */
+.book {
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border: 2px solid blue;
+    padding-top:25px;
+}
+
+.book input{
+    width: 400px;
+    float:right;
+    margin-right: 200px;
+}
+
+/* Выбор мест */
+.img {
+    justify-content:center;
+    text-align:center;
+
+}
+
+table {
+    background-color: rgba(173, 216, 230, 0.9);
+    width:100%;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+.bro input {
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Подвал */
+footer {
+    font-size:20px;
+    text-align:center;
+    margin-top: 50px;
+    background-color: aqua;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+
+
+
+/* ДОПОЛНЕНИЕ К МЕСТАМ */
+.seat td{
+    padding:1%;
+    width: 300px;
+}
+
+.seat td.seat:hover{
+    background-color: blue;
+}
